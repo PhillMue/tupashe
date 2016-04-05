@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.crazyhitty.chdev.ks.munch"
+        applicationId "com.crazyhitty.chdev.ks.tupashe"
         minSdkVersion 15
         targetSdkVersion 23
         versionCode 13
