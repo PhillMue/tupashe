@@ -1,4 +1,4 @@
-package com.crazyhitty.chdev.ks.munch;
+package com.crazyhitty.chdev.ks.tupashe;
 
 import org.junit.Test;
 
