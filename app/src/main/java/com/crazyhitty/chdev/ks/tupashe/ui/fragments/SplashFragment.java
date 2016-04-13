@@ -78,24 +78,7 @@ public class SplashFragment extends Fragment {
                 imgSelectedDot2.setVisibility(View.INVISIBLE);
                 imgSelectedDot3.setVisibility(View.INVISIBLE);
                 break;
-            case 2:
-                txtSplashTitle.setText(R.string.splash_title_2);
-                txtSplashDesc.setText(R.string.splash_desc_2);
-                imgSplash.setImageResource(R.drawable.splash_2);
-                relativeLayoutSplash.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.colorAccent));
-                imgSelectedDot1.setVisibility(View.INVISIBLE);
-                imgSelectedDot2.setVisibility(View.VISIBLE);
-                imgSelectedDot3.setVisibility(View.INVISIBLE);
-                break;
-            case 3:
-                txtSplashTitle.setText(R.string.splash_title_3);
-                txtSplashDesc.setText(R.string.splash_desc_3);
-                imgSplash.setImageResource(R.drawable.splash_3);
-                relativeLayoutSplash.setBackgroundColor(ContextCompat.getColor(getActivity(), R.color.colorPrimary));
-                imgSelectedDot1.setVisibility(View.INVISIBLE);
-                imgSelectedDot2.setVisibility(View.INVISIBLE);
-                imgSelectedDot3.setVisibility(View.VISIBLE);
-                break;
+
         }
     }
 }
